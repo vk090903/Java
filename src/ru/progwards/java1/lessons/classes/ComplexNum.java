@@ -1,7 +1,5 @@
 package ru.progwards.java1.lessons.classes;
 
-import org.jetbrains.annotations.NotNull;
-
 public class ComplexNum {
 
     int a;
