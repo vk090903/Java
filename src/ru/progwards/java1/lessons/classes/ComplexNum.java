@@ -27,7 +27,7 @@ public class ComplexNum {
         return new ComplexNum(num1.a - num2.a, num1.b - num2.b);
     }
 
-    public ComplexNum mul(@NotNull ComplexNum num1, ComplexNum num2) {
+    public ComplexNum mul(ComplexNum num1, ComplexNum num2) {
         int a = num1.a, b = num1.b, c = num2.a, d = num2.b;
         return new ComplexNum(a * c - b * d, b * c + a * d);
     }
