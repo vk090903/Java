@@ -12,10 +12,6 @@ public class Cow extends Animal {
         super(AnimalKind.COW, FoodKind.HAY, weight, foodCoeff);
     }
 
-    //public AnimalKind getKind()
-    //public FoodKind getFoodKind()
-    //Извеняюсь, что не реализовал, но мне кажется, что мой вариант реализации того же функционала интересней
-    //А применение @Override есть в родительском классе :)
 
     public static void main(String[] args) {
         Cow animal = new Cow(250);

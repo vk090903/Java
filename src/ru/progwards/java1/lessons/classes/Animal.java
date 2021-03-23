@@ -35,9 +35,12 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "I am " + getKind() + ", eat " + getFoodKind() + " " + calculateFoodWeight();
+        return "I am " + getKind() + ", eat " + getFoodKind();
     }
 
+    public String toStringFull() {
+        return "I am " + getKind() + ", eat " + getFoodKind() + " " + calculateFoodWeight();
+    }
     public double getWeight() {
         return weight;
     }
@@ -52,7 +55,7 @@ public class Animal {
         return foodCoeff;
     }
 
-    // рассчитывает необходимый вес еды, по формуле - вес-еды = вес-животного * коэффициент веса тела
+
     public double calculateFoodWeight() {
         return getWeight() * getFoodCoeff();
     }
