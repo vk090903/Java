@@ -9,6 +9,8 @@ public class ComplexNum {
         this.b = b;
     }
 
+
+
     public ComplexNum newComplexNum(int a, int b) {
         return new ComplexNum(a, b);
     }
