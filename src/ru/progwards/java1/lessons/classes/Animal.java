@@ -1,6 +1,8 @@
+
 package ru.progwards.java1.lessons.classes;
 
 public class Animal {
+
     static enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK}
     static enum FoodKind {UNKNOWN, HAY, CORN}
 
@@ -64,5 +66,4 @@ public class Animal {
         System.out.println(animal);
     }
 
-}
 }
